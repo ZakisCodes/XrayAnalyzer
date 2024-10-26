@@ -1,0 +1,7 @@
+sentence-transformers
+git+https://github.com/huggingface/transformers
+chromadb
+streamlit
+torch
+torchvision
+pandas

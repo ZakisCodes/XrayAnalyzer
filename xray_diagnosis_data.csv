@@ -1,0 +1,31 @@
+file_name,Lung Opacity,Pleural Effusion,Pneumothorax,Cardiomegaly,Atelectasis,Consolidation,Diagnosis Summary
+00006585_007.png,Present,Yes,Yes,Yes,Mild,Focal,Observed moderate hyperinflation of lung fields. Indicative of chronic obstructive pulmonary disease (COPD) with no acute infiltrates. Recommend spirometry for confirmation.
+00006585_008.png,Absent,No,No,No,None,None,"Identified bilateral interstitial markings, consistent with mild pulmonary fibrosis. No acute abnormalities noted. Suggest periodic follow-up X-rays."
+00006585_009.png,Absent,No,No,No,None,None,Detected left lower lobe consolidation with mild pleural thickening. Findings are consistent with lobar pneumonia. Antibiotic therapy recommended
+00006585_010.png,Present,No,No,No,None,None,"Noted subtle ground-glass opacity in right upper lobe, raising suspicion of early interstitial lung disease. Further imaging advised to assess progression."
+00006585_011.png,Absent,Yes,No,No,None,None,"Visualized prominent pulmonary vasculature, suggesting pulmonary hypertension. Cardiac silhouette appears normal. Echocardiogram may provide further insight"
+00006585_012.png,Absent,No,Yes,No,None,None,Presence of linear atelectasis in right middle lobe without pleural effusion. Likely post-inflammatory scarring. Routine monitoring suggested.
+00006585_013.png,Present,No,No,Yes,None,None,Observed increased cardiac silhouette with cephalization of pulmonary vessels. Findings suggest possible congestive heart failure. Follow-up with echocardiography recommended.
+00006585_014.png,Absent,No,No,No,Mild,None,"Detected calcified nodules in bilateral upper lobes, indicative of previous granulomatous infection. No active disease present. Continue with routine screening."
+00006585_015.png,Absent,Yes,No,No,None,Focal,"Noted mild blunting of the left costophrenic angle, likely small pleural effusion. Lung fields otherwise clear. Clinical correlation advised."
+00006585_016.png,Present,No,No,No,None,None,"X-ray shows diffuse reticular opacities, consistent with possible interstitial lung disease. High-resolution CT may aid in further evaluation"
+00006585_017.png,Absent,No,Yes,No,None,Diffuse,Detected mediastinal widening with no tracheal deviation. Consistent with stable post-surgical changes. Monitoring recommended to rule out any abnormal growth.
+00006586_000.png,Absent,No,No,No,None,None,Presence of focal area of calcification in the right hilar region. Findings are consistent with an old granulomatous infection. No immediate intervention needed
+00006586_001.png,Present,Yes,No,Yes,None,None,Identified bilateral patchy opacities in lung fields consistent with pneumonia. Follow-up imaging suggested to monitor response to treatment.
+00006586_002.png,Absent,No,No,No,None,None,"Noted enlarged right atrium with prominent pulmonary arteries, suggestive of cor pulmonale. Recommend echocardiogram for further assessment."
+00006586_003.png,Absent,No,No,No,Mild,None,Detected right pleural effusion with associated costophrenic angle blunting. Suggest ultrasound for evaluation of fluid characteristics.
+00006586_004.png,Present,No,Yes,No,None,None,Visualized a solitary pulmonary nodule in the left upper lobe. Suggest follow-up imaging in six months to assess for changes.
+00006586_005.png,Absent,Yes,No,No,None,Focal,Presence of hyperlucent lung fields on the right side indicative of pneumothorax. Recommend immediate follow-up and possible intervention.
+00006587_000.png,Absent,No,No,No,None,None,"Presence of infiltrative lesions in bilateral lung fields, suggestive of pulmonary malignancy. Further diagnostic imaging and biopsy recommended."
+00006588_000.png,Present,No,No,Yes,None,None,Presence of hyperlucent lung fields on the right side indicative of pneumothorax. Recommend immediate follow-up and possible intervention.
+00006588_001.png,Absent,No,No,No,None,None,"Observed bilateral peribronchial thickening with increased bronchovascular markings, suggestive of asthma exacerbation. Consider bronchodilator therapy."
+00006588_002.png,Absent,Yes,Yes,No,None,Diffuse,"Identified increased opacity in the left hemithorax, consistent with potential mass effect. Further evaluation with CT scan warranted."
+00006588_003.png,Present,No,No,No,Mild,None,"Detected changes in lung volume with a shift in the mediastinum to the left, suggesting potential tension pneumothorax. Immediate evaluation required"
+00006588_004.png,Absent,No,No,No,None,None,Noted subsegmental atelectasis in the right lower lobe with no significant pleural effusion. Likely secondary to shallow breathing. Encourage deep breathing exercises.
+00006588_005.png,Absent,No,No,No,None,None,"Presence of linear densities in the left lower lobe, consistent with pulmonary edema. Clinical correlation with heart failure symptoms recommended."
+00006589_000.png,Present,Yes,No,Yes,None,Focal,Observed prominent hilar lymphadenopathy in both lungs. Consider further evaluation for possible sarcoidosis or lymphoma.
+00006590_000.png,Absent,No,Yes,No,None,None,Evaluated cardiomegaly presence with mild lung changes. Pleural effusion not present. Findings align with a stable cardiac outline but warrant regular monitoring.
+00006591_000.png,Absent,No,No,No,None,None,"Detected diffuse opacities with a reticular pattern in the lower lung fields, suggestive of pulmonary interstitial edema. Recommend cardiac evaluation."
+00006592_000.png,Present,No,No,No,None,None,Identified bronchiectasis in the right lower lobe with associated cystic changes. Regular monitoring and pulmonary function tests advised.
+00006592_001.png,Absent,Yes,No,No,Mild,None,Reviewed X-ray for lung opacity and possible pleural effusion. Consolidation observed with mild atelectasis. Diagnosis suggests further evaluation for pneumonia.
+00006592_002.png,Absent,No,No,No,None,None,Identified bronchiectasis in the right lower lobe with associated cystic changes. Regular monitoring and pulmonary function tests advised.
