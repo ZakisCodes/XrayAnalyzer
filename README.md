@@ -54,8 +54,8 @@
 
 ## Video Demo
 
-[![DEMO video]([https:/streamlit.app](https://youtu.be/332PO56vYjg))
 
+[![Watch the video](VIDEO_THUMBNAIL_URL)](https://youtu.be/332PO56vYjg?si=WDWgWgH3kD5JxevE)
 ## Code Quality and Documentation
 
 The code is organized into several modules, with each function clearly defined and commented. Key functions include:
