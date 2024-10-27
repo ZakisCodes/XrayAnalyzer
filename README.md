@@ -51,10 +51,6 @@
 3. **Vector Search**: ChromaDB is utilized to perform a vector search, retrieving the most similar X-ray images from the database.
 4. **Display Results**: The application displays the retrieved images along with detailed diagnostic information from the dataset.
 
-## Screenshots
-
-![Screenshot 1](path/to/screenshot1.png)
-![Screenshot 2](path/to/screenshot2.png)
 
 ## Video Demo
 
