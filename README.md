@@ -56,9 +56,9 @@
 ![Screenshot 1](path/to/screenshot1.png)
 ![Screenshot 2](path/to/screenshot2.png)
 
-## Try it in your browser
+## Video Demo
 
-[![APP](https:/streamlit.app)
+[![DEMO video]([https:/streamlit.app](https://youtu.be/332PO56vYjg))
 
 ## Code Quality and Documentation
 
