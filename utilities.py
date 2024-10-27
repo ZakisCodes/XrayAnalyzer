@@ -5,6 +5,7 @@ from PIL import Image
 from sklearn.metrics.pairwise import cosine_similarity
 from torchvision import models, transforms
 import pandas as pd
+from io import BytesIO
 
 # Function to load and preprocess an image
 def preprocess_image(image_path):
@@ -167,5 +168,7 @@ def data_extraction(result_img):
 
 
 def add_sample():
-    file = 'sample/00006605_038.png'
-    return open(file, 'rb' )
+    file_path = 'sample/00006605_038.png'
+    with open(file_path, 'rb') as file:
+        file_bytes = file.read()
+    return BytesIO(file_bytes)  # Return a BytesIO object for Streamlit to read

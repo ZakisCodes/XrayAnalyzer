@@ -85,16 +85,20 @@ col1, col2 = st.columns(2)  # Create two columns for layout
 
 with col1:
     st.header("X-ray Image Search Engine")  # Header for the search engine
-    btn = st.button("Adding Sample Xray Image", on_click=add_sample())
+    btn = st.button("Adding Sample Xray Image")
     if btn:
        file_image = add_sample()
     else:
        file_image = st.file_uploader("Upload a Xray Reference Image", type=["jpg", "jpeg", "png"])  # File uploader for reference images
+       print(type(file_image))
     
 # If a file image is uploaded, process the image in the second column
 if file_image is not None:
     with col2:
         search_image(file_image, model, image_embeddings)  # Call the function to search using the uploaded image
-
-# Extract data related to the session state result file (assumed function defined elsewhere)
-data_extraction(st.session_state.result_file)
+        # Extract data related to the session state result file (assumed function defined elsewhere)
+        
+        
+time.sleep(2)
+if file_image is not None:
+    data_extraction(st.session_state.result_file)
