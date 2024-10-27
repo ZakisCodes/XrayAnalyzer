@@ -27,7 +27,7 @@
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/xray-vision.git
+   git clone https://github.com/ZakisCodes/XrayAnalyzer.git
    cd xray-vision
    ```
 
