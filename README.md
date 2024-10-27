@@ -1,16 +1,15 @@
 
-# XrayVision: Intelligent X-ray Diagnosis Application
+# XrayAnalyzer: Intelligent X-ray Diagnosis Application
 
-![XrayVision Logo](path/to/your/logo.png) <!-- Optional: Add a logo -->
 
 ## Project Purpose
 
-**XrayVision** is an intelligent X-ray diagnosis application that leverages the power of vector search through ChromaDB to provide accurate and efficient retrieval of relevant X-ray images based on user input. The application aims to assist medical professionals in diagnosing lung conditions by matching user-provided X-ray images against a database of labeled X-ray images.
+**XrayVision** is an intelligent X-ray diagnosis application that leverages the power of vector search through ChromaDB to provide accurate and efficient retrieval of relevant X-ray images based on user input. The application aims to assist medical professionals in diagnosing lung conditions by matching user-provided X-ray images against a database of labeled X-ray images with their diagnosis.
 
 ## Key Features
 
 - **Vector Search Integration**: Seamlessly integrates ChromaDB for fast and effective vector search, allowing users to find similar X-ray images based on embedded features.
-- **Accurate Results**: Utilizes a pretrained deep learning model for extracting image features, ensuring robust and reliable search results.
+- **Accurate Results**: Utilizes a pre-trained deep learning model for extracting image features, ensuring robust and reliable search results.
 - **User-Friendly Interface**: Designed with a simple and intuitive interface for easy image upload and result retrieval.
 - **Detailed Diagnostics**: Provides insights and details about the retrieved X-ray images, including various lung conditions.
 
@@ -43,6 +42,7 @@
    ```
 
 4. **Upload your X-ray images**: Use the application interface to upload X-ray images for diagnosis.
+   You can find sample Xray image in the app itself.
 
 ## Application Flow
 
@@ -70,15 +70,6 @@ The code is organized into several modules, with each function clearly defined a
 
 All functions have been documented with clear docstrings explaining their purpose and usage.
 
-## Performance Metrics
-
-- **Response Time**: Average response time for image retrieval is under 2 seconds.
-- **Query Time**: Average query time using ChromaDB is approximately 300ms for 1000 entries.
-
-## Accuracy Metrics
-
-- Achieved an accuracy of 95% in retrieving relevant X-ray images based on vector similarity comparisons.
-
 ## Optimizations
 
 - Enhanced performance by optimizing the image preprocessing pipeline and reducing memory usage during vector queries.
@@ -94,4 +85,4 @@ For questions or feedback, feel free to reach out to me at [zakinabdul.tech@gmai
 
 ---
 
-Thank you for considering XrayVision for your evaluation!
+Thank you for considering XrayAnalyzer for your evaluation!
