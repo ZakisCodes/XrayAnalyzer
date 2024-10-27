@@ -162,3 +162,10 @@ def data_extraction(result_img):
 
     else:
         st.error("No data found for the specified image.")
+
+
+
+
+def add_sample():
+    file = 'sample/00006605_038.png'
+    return open(file, 'rb' )

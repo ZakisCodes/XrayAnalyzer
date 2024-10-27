@@ -85,7 +85,11 @@ col1, col2 = st.columns(2)  # Create two columns for layout
 
 with col1:
     st.header("X-ray Image Search Engine")  # Header for the search engine
-    file_image = st.file_uploader("Upload a Xray Reference Image", type=["jpg", "jpeg", "png"])  # File uploader for reference images
+    btn = st.button("Adding Sample Xray Image", on_click=add_sample())
+    if btn:
+       file_image = add_sample()
+    else:
+       file_image = st.file_uploader("Upload a Xray Reference Image", type=["jpg", "jpeg", "png"])  # File uploader for reference images
     
 # If a file image is uploaded, process the image in the second column
 if file_image is not None:
