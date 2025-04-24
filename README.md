@@ -27,7 +27,7 @@
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/xray-vision.git
+   git clone https://github.com/ZakisCodes/XrayAnalyzer.git
    cd xray-vision
    ```
 
@@ -51,14 +51,11 @@
 3. **Vector Search**: ChromaDB is utilized to perform a vector search, retrieving the most similar X-ray images from the database.
 4. **Display Results**: The application displays the retrieved images along with detailed diagnostic information from the dataset.
 
-## Screenshots
 
-![Screenshot 1](path/to/screenshot1.png)
-![Screenshot 2](path/to/screenshot2.png)
+## Video Demo
 
-## Try it in your browser
+[![Watch the video](https://img.youtube.com/vi/332PO56vYjg/0.jpg)](https://youtu.be/332PO56vYjg?si=WDWgWgH3kD5JxevE)
 
-[![APP](https:/streamlit.app)
 
 ## Code Quality and Documentation
 
