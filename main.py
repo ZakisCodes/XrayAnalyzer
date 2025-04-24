@@ -94,6 +94,8 @@ with col1:
     
 # If a file image is uploaded, process the image in the second column
 if file_image is not None:
+    with col1:
+        st.image(file_image, caption="Uploaded Image", use_column_width=True)
     with col2:
         search_image(file_image, model, image_embeddings)  # Call the function to search using the uploaded image
         # Extract data related to the session state result file (assumed function defined elsewhere)
