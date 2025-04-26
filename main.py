@@ -9,7 +9,13 @@ from torchvision import models, transforms
 from chromadb.errors import UniqueConstraintError  # Importing error handling for unique constraints
 
 # Initialize a ChromaDB client
-client = chromadb.Client()
+#client = chromadb.Client()
+client = chromadb.Client(
+    chromadb.config.Settings(
+        chroma_db_impl="duckdb+parquet",
+        persist_directory="./chroma_store"  # optional
+    )
+)
 
 # Use st.session_state to prevent creating duplicate collections in the database
 if "collection" not in st.session_state:
